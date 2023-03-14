@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mobasuite", "mobasuite.vcxproj", "{E55A07E4-10B8-4500-8F62-2DEA774BC0C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E55A07E4-10B8-4500-8F62-2DEA774BC0C1}.Release|x64.ActiveCfg = Release|x64
+		{E55A07E4-10B8-4500-8F62-2DEA774BC0C1}.Release|x64.Build.0 = Release|x64
+		{E55A07E4-10B8-4500-8F62-2DEA774BC0C1}.Release|x86.ActiveCfg = Release|Win32
+		{E55A07E4-10B8-4500-8F62-2DEA774BC0C1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C48961D-04D3-4F99-999B-265E9FF089F3}
+	EndGlobalSection
+EndGlobal
